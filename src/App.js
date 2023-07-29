@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
 
-        <BrowserRouter basename={'/My-Portfolio'}>
+        <BrowserRouter>
             <Routes>
 
                 <Route exact path={'/'} element={<Main/> }/>
