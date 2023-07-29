@@ -1,7 +1,6 @@
 
 
 import table from "../assets/images/table.png";
-// import cmc from "../assets/images/cmcback.jpg";
 import interviewbit from "../assets/images/interviewbit.jpg";
 import leetcode from "../assets/images/LeetCode.png";
 import gfg from "../assets/images/gfg.svg";

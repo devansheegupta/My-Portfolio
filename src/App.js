@@ -1,6 +1,5 @@
 
 import './App.css';
-import 'https://unpkg.com/boxicons@2.1.4/dist/boxicons.js';
 import Main from "./container/Main";
 import Home from "./container/Home";
 import Skills from "./container/Skills";
