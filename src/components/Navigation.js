@@ -15,7 +15,7 @@ function Navigation() {
                             <div className={'collapse navbar-collapse justify-content-end'} id={"collapsethis"}>
                                 <ul className={'navbar-nav p-0'}>
                                     <li className={'nav-item text-center active px-3'}>
-                                        <Link className={'nav-link'} to={'/'}>
+                                        <Link className={'nav-link'} to={'/My-Portfolio'}>
                                             Home
                                         </Link>
                                     </li>
