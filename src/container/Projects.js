@@ -9,15 +9,15 @@ function Projects() {
 
                         <div className={'projectbox reveall py-5 px-3'}>
                             <div className={'project-arrow'}>
-                                <a className={'project-link'} href={'/'}>→</a>
+                                <a className={'project-link'} href={'/My-Portfolio'}>→</a>
                             </div>
                             <h4 className={'mb-3'}>PaloAlto-(PCCET) Cyber & Network Security ! </h4>
                             <p className={'mt-2'}>🚀 An in-house training for Entry-Level technician, where I deeply dived into Cyber, Network as well as Cloud Security .</p>
                             <ul className={'dev-icons d-flex'}>
                                 <li className={'m-2'}>certificates - </li>
-                                <a href={'https://drive.google.com/file/d/18IocFRk34WeqHonZoKHJHX1TL3gztuqB/view?usp=drivesdk'} target={'_blank'}><li className={'m-2'}>Cyber Security</li></a>
-                                <a href={'https://drive.google.com/file/d/18KzkYcdX7aAWlJxk9tyx6fePheMGx7xV/view?usp=drivesdk'} target={'_blank'}><li className={'m-2'}>Network Security</li></a>
-                                <a href={'/'}><li className={'m-2'}>Cloud Security</li></a>
+                                <a href={'https://drive.google.com/file/d/18IocFRk34WeqHonZoKHJHX1TL3gztuqB/view?usp=drivesdk'}  ><li className={'m-2'}>Cyber Security</li></a>
+                                <a href={'https://drive.google.com/file/d/18KzkYcdX7aAWlJxk9tyx6fePheMGx7xV/view?usp=drivesdk'}  ><li className={'m-2'}>Network Security</li></a>
+                                <a href={'My-Portfolio'}><li className={'m-2'}>Cloud Security</li></a>
                                 <a href={'/'}><li className={'m-2'}>Final certificate</li></a>
                             </ul>
 
@@ -27,7 +27,7 @@ function Projects() {
 
                         <div className={'projectbox reveall py-4 px-3'}>
                             <div className={'project-arrow'}>
-                                <a className={'project-link'} href={'https://devansheegupta.github.io/My-Portfolio/'} target={'_blank'}>→</a>
+                                <a className={'project-link'} href={'https://devansheegupta.github.io/My-Portfolio/'}  >→</a>
                             </div>
                             <h4 className={'mb-4'}>MyPortFolio! (Project)</h4>
                             <p className={'mt-2'}>🚀 A Portfolio that showcase my work and skills as a frontend developer.</p>
@@ -47,7 +47,7 @@ function Projects() {
                     <div className="col-lg-6 my-2 relative">
                         <div className={'projectbox reveall py-5 px-3'}>
                             <div className={'project-arrow'}>
-                                <a className={'project-link'} href={'https://devansheegupta.github.io/Netflix-ClonePage/'} target={'_blank'}>→</a>
+                                <a className={'project-link'} href={'https://devansheegupta.github.io/Netflix-ClonePage/'}  >→</a>
                             </div>
                             <h4 className={'mb-3'}>NetFlix - HomePage Clone! (Project)</h4>
                             <p className={'mt-2'}>A Home Page Clone of NetFlix Website, deployed on Github Pages
@@ -63,7 +63,7 @@ function Projects() {
                     <div className="col-lg-6 relative my-2">
                         <div className={'projectbox reveall py-5 px-3'}>
                             <div className={'project-arrow'}>
-                                <a className={'project-link'} href={'https://devansheegupta.github.io/Juicy-World/'} target={'_blank'}>→</a>
+                                <a className={'project-link'} href={'https://devansheegupta.github.io/Juicy-World/'}  >→</a>
                             </div>
                             <h4 className={'mb-3'}>Juicy World! (Project)</h4>
                             <p className={'mt-2'}>A Juice Delivering Website providing varieties of Juices at your DoorStep .</p>
