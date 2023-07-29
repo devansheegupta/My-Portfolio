@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/My-PortFolio/static/css/main.7711598c.css",
-    "main.js": "/My-PortFolio/static/js/main.09bd8cbf.js",
+    "main.js": "/My-PortFolio/static/js/main.1cfba18e.js",
     "static/js/787.905c7547.chunk.js": "/My-PortFolio/static/js/787.905c7547.chunk.js",
     "static/media/anime2.gif": "/My-PortFolio/static/media/anime2.986764c2696118dcbe90.gif",
     "static/media/anime.gif": "/My-PortFolio/static/media/anime.f372ef867ab6dc71a52b.gif",
@@ -17,11 +17,11 @@
     "index.html": "/My-PortFolio/index.html",
     "static/media/gfg.svg": "/My-PortFolio/static/media/gfg.89169b2837963ab7f7454736c7adb718.svg",
     "main.7711598c.css.map": "/My-PortFolio/static/css/main.7711598c.css.map",
-    "main.09bd8cbf.js.map": "/My-PortFolio/static/js/main.09bd8cbf.js.map",
+    "main.1cfba18e.js.map": "/My-PortFolio/static/js/main.1cfba18e.js.map",
     "787.905c7547.chunk.js.map": "/My-PortFolio/static/js/787.905c7547.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7711598c.css",
-    "static/js/main.09bd8cbf.js"
+    "static/js/main.1cfba18e.js"
   ]
 }
