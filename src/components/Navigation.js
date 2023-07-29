@@ -15,36 +15,36 @@ function Navigation() {
                             <div className={'collapse navbar-collapse justify-content-end'} id={"collapsethis"}>
                                 <ul className={'navbar-nav p-0'}>
                                     <li className={'nav-item text-center active px-3'}>
-                                        <Link className={'nav-link'} to={'/'}>
+                                        <Link className={'nav-link'} to={'/My-Portfolio'}>
                                             Home
                                         </Link>
                                     </li>
                                     <li className={'nav-item text-center px-3'}>
-                                        <Link className={'nav-link'} to={'My-Portfolio/skills'}>
+                                        <Link className={'nav-link'} to={'/skills'}>
                                             Skills
                                         </Link>
                                     </li><li className={'nav-item text-center px-3'}>
-                                        <Link className={'nav-link'} to={'My-Portfolio/education'}>
+                                        <Link className={'nav-link'} to={'/education'}>
                                             Education
                                         </Link>
                                     </li>
                                     <li className={'nav-item text-center px-3'}>
-                                        <Link className={'nav-link'} to={'My-Portfolio/works'}>
+                                        <Link className={'nav-link'} to={'/works'}>
                                             Other Experiences
                                         </Link>
                                     </li>
                                     <li className={'nav-item text-center px-3'}>
-                                        <Link className={'nav-link'} to={'My-Portfolio/projects'}>
+                                        <Link className={'nav-link'} to={'/projects'}>
                                             Projects & trainings
                                         </Link>
                                     </li>
                                     <li className={'nav-item text-center  px-3'}>
-                                        <Link className={'nav-link'} to={'My-Portfolio/achieve'}>
+                                        <Link className={'nav-link'} to={'/achieve'}>
                                             Achievements
                                         </Link>
                                     </li>
                                     <li className={'nav-item text-center px-3'}>
-                                        <Link className={'nav-link'} to={'My-Portfolio/contact'}>
+                                        <Link className={'nav-link'} to={'/contact'}>
                                             Contact me
                                         </Link>
                                     </li>
