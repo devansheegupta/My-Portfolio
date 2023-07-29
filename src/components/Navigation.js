@@ -1,5 +1,4 @@
 import React from "react";
-import {Link} from "react-router-dom";
 
 function Navigation() {
     return(
@@ -15,38 +14,38 @@ function Navigation() {
                             <div className={'collapse navbar-collapse justify-content-end'} id={"collapsethis"}>
                                 <ul className={'navbar-nav p-0'}>
                                     <li className={'nav-item text-center active px-3'}>
-                                        <Link className={'nav-link'} to={'/'}>
+                                        <a className={'nav-link'} href={'/My-Portfolio/home'}>
                                             Home
-                                        </Link>
+                                        </a>
                                     </li>
                                     <li className={'nav-item text-center px-3'}>
-                                        <Link className={'nav-link'} to={'/skills'}>
+                                        <a className={'nav-link'} href={'/My-Portfolio/skills'}>
                                             Skills
-                                        </Link>
+                                        </a>
                                     </li><li className={'nav-item text-center px-3'}>
-                                        <Link className={'nav-link'} to={'/education'}>
+                                        <a className={'nav-link'} href={'/My-Portfolio/education'}>
                                             Education
-                                        </Link>
+                                        </a>
                                     </li>
                                     <li className={'nav-item text-center px-3'}>
-                                        <Link className={'nav-link'} to={'/works'}>
+                                        <a className={'nav-link'} href={'/My-Portfolio/works'}>
                                             Other Experiences
-                                        </Link>
+                                        </a>
                                     </li>
                                     <li className={'nav-item text-center px-3'}>
-                                        <Link className={'nav-link'} to={'/projects'}>
+                                        <a className={'nav-link'} href={'/My-Portfolio/projects'}>
                                             Projects & trainings
-                                        </Link>
+                                        </a>
                                     </li>
                                     <li className={'nav-item text-center  px-3'}>
-                                        <Link className={'nav-link'} to={'/achieve'}>
+                                        <a className={'nav-link'} href={'/My-Portfolio/achieve'}>
                                             Achievements
-                                        </Link>
+                                        </a>
                                     </li>
                                     <li className={'nav-item text-center px-3'}>
-                                        <Link className={'nav-link'} to={'/contact'}>
+                                        <a className={'nav-link'} href={'/My-Portfolio/contact'}>
                                             Contact me
-                                        </Link>
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
