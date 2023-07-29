@@ -20,31 +20,31 @@ function Navigation() {
                                         </Link>
                                     </li>
                                     <li className={'nav-item text-center px-3'}>
-                                        <Link className={'nav-link'} to={'/skills'}>
+                                        <Link className={'nav-link'} to={'/My-Portfolio/skills'}>
                                             Skills
                                         </Link>
                                     </li><li className={'nav-item text-center px-3'}>
-                                        <Link className={'nav-link'} to={'/education'}>
+                                        <Link className={'nav-link'} to={'/My-Portfolio/education'}>
                                             Education
                                         </Link>
                                     </li>
                                     <li className={'nav-item text-center px-3'}>
-                                        <Link className={'nav-link'} to={'/works'}>
+                                        <Link className={'nav-link'} to={'/My-Portfolio/works'}>
                                             Other Experiences
                                         </Link>
                                     </li>
                                     <li className={'nav-item text-center px-3'}>
-                                        <Link className={'nav-link'} to={'/projects'}>
+                                        <Link className={'nav-link'} to={'/My-Portfolio/projects'}>
                                             Projects & trainings
                                         </Link>
                                     </li>
                                     <li className={'nav-item text-center  px-3'}>
-                                        <Link className={'nav-link'} to={'/achieve'}>
+                                        <Link className={'nav-link'} to={'/My-Portfolio/achieve'}>
                                             Achievements
                                         </Link>
                                     </li>
                                     <li className={'nav-item text-center px-3'}>
-                                        <Link className={'nav-link'} to={'/contact'}>
+                                        <Link className={'nav-link'} to={'/My-Portfolio/contact'}>
                                             Contact me
                                         </Link>
                                     </li>

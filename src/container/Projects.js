@@ -17,8 +17,8 @@ function Projects() {
                                 <li className={'m-2'}>certificates - </li>
                                 <a href={'https://drive.google.com/file/d/18IocFRk34WeqHonZoKHJHX1TL3gztuqB/view?usp=drivesdk'}  ><li className={'m-2'}>Cyber Security</li></a>
                                 <a href={'https://drive.google.com/file/d/18KzkYcdX7aAWlJxk9tyx6fePheMGx7xV/view?usp=drivesdk'}  ><li className={'m-2'}>Network Security</li></a>
-                                <a href={'My-Portfolio'}><li className={'m-2'}>Cloud Security</li></a>
-                                <a href={'/'}><li className={'m-2'}>Final certificate</li></a>
+                                <a href={'/My-Portfolio'}><li className={'m-2'}>Cloud Security</li></a>
+                                <a href={'/My-Portfolio'}><li className={'m-2'}>Final certificate</li></a>
                             </ul>
 
                         </div>

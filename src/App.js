@@ -19,13 +19,13 @@ function App() {
             <Routes>
 
                 <Route exact path={'/My-Portfolio'} element={<Main/> }/>
-                <Route exact path={'/home'} element={<Home/>}/>
-                <Route exact path={'/skills'} element={<Skills/>}/>
-                <Route exact path={'/education'} element={<Education/>}/>
-                <Route exact path={'/works'} element={<Works/>}/>
-                <Route exact path={'/projects'} element={<Projects/>}/>
-                <Route exact path={'/achieve'} element={<Achieve/>}/>
-                <Route exact path={'/contact'} element={<Contact/>}/>
+                <Route exact path={'/My-Portfolio/home'} element={<Home/>}/>
+                <Route exact path={'/My-Portfolio/skills'} element={<Skills/>}/>
+                <Route exact path={'/My-Portfolio/education'} element={<Education/>}/>
+                <Route exact path={'/My-Portfolio/works'} element={<Works/>}/>
+                <Route exact path={'/My-Portfolio/projects'} element={<Projects/>}/>
+                <Route exact path={'/My-Portfolio/achieve'} element={<Achieve/>}/>
+                <Route exact path={'/My-Portfolio/contact'} element={<Contact/>}/>
             </Routes>
 
         </BrowserRouter>
