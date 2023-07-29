@@ -20,7 +20,7 @@ function Contact(){
                     <a href="https://github.com/devansheegupta" target={'_blank'} className={'mx-2 locicon'}>
                         <box-icon type='logo' name='github'></box-icon>
                     </a>
-                    <a href="devansheegupta0@gmail.com" target={'_blank'} className={'mx-2 locicon'}>
+                    <a href="mailto:devansheegupta0@gmail.com" target={'_blank'} className={'mx-2 locicon'}>
                         <box-icon type='logo' name='gmail' ></box-icon>
                     </a>
 
