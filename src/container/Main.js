@@ -10,7 +10,7 @@ function Main() {
             <script>
                 function redirect(){
                     setTimeout(()=>{
-                        document.location.href='/home'
+                        document.location.href='/My-Portfolio/home'
                     },3000)
                 }
             </script>
