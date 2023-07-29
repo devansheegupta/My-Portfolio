@@ -1,38 +1,555 @@
+
 .App {
-  text-align: center;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 16px;
+  margin: 0px;
+  padding: 0px;
+  color: gray;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#Maindiv{
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+
+}
+.animate{
+  animation: Zoom ease 2.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+#mainimg{
+  width: 45%;
+  height: auto;
+  opacity: 1;
+}
+
+@keyframes Zoom {
+
+  50%{
+    width: 30%;
+    height: auto;
+  }
+  100%{
+    width: 45%;
+    height: auto;
+  }
+}
+
+.title-word{
+  animation: coloranimate 2s linear infinite;
+  font-weight: 900;
+}
+
+.title-word-1{
+  --color-1:#DF8453;
+  --color-2: #2994bf;
+  --color-3:#E4A9A8;
+
+}
+.title-word-2{
+  --color-1: #eeb73f;
+  --color-2: #8ba6a3;
+  --color-3:#E4A9A8;
+
+}.title-word-3{
+   --color-1: #74c4bb;
+   --color-2: #fc7f7c;
+   --color-3:#ACCFCB;
+ }
+.title-word-4{
+  --color-1:#3D8DAE;
+  --color-2:#DF8453;
+  --color-3:#E4A9A8;
+
+}
+@keyframes coloranimate {
+  0% {
+    color: var(--color-1);
+  }
+  32%{
+    color: var(--color-3);
+  }
+  33%{
+    color: var(--color-2);
+  }
+  65%{
+    color: var(--color-1);
+  }
+  66%{
+    color: var(--color-3);
+  }
+  99%{
+    color: var(--color-2);
+  }
+  100% {
+    color: var(--color-1);
+  }
+}
+.nametag{
+  font-weight: 500;
+  font-size: 5.5rem;
+}
+
+.nav-item{
+  cursor: pointer;
+  color: gray;
+  font-size: 1rem;
+}
+
+.nav-link:hover{
+  color: black;
+  cursor: pointer;
+ }
+#nav-title{
+  position: absolute;
+  padding: 0.1rem 0rem;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+}
+
+
+#nav-title span{
+  font-size: 1.2rem;
+}
+
+#About::before{
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+}
+#About{
+  margin: 3.5rem 0rem;
+}
+p{
+  color: gray;
+  font-size: 1rem;
+}
+div{
+  font-size: 1.5rem;
+}
+span{
+  font-size: 1rem;
+  color: gray;
+}
+
+li{
+  font-size: 0.8rem;
+  color: gray;
+}
+h1,h2,h3,h5,div{
+  color: black;
+}
+h5{
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+#wavediv{
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+
+}
+#comeout{
+  animation: Comeout ease 2s;
+  animation-iteration-count: 2;
+  width: 80%;
+  height: 100%;
+  vertical-align: 5px;
+}
+
+
+@keyframes Comeout {
+  0% {
+    width: 30%;
+    height: 100%;
+  }
+  50%{
+    transform: translateX(-2%);
+  }
+  100% {
+    width: 80%;
+    height: 100%;
+    transform: translateX(2%);
+  }
+}
+
+h1{
+  font-family: 'FastHand';
+  font-weight: 500;
+  color: #7878e6;
+}
+h2{
+  font-weight: 900;
+  font-size: 2rem;
+  font-family: 'Montserrat';
+}
+
+.button{
+  font-family: -apple-systrem, BlinkMacSystremFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  background-color: #f9e6ba;
+  border-radius: 20px;
+  border: 0.1rem solid #ead7ac;
+  color: black
+}
+.button:hover{
+  background-color: #ffffff;
+  color: #ad7902;
+  border-radius: 30px;
+  border: 0.1rem solid #ead7ac;
+}
+
+.navbar-toggler:focus{
+  box-shadow: unset;
+}
+.navbar-toggler:active{
+  box-shadow: unset;
+  border: none;
+}
+
+
+/*Skills section*/
+
+#skillsdiv{
+  width: 100%;
+}
+.skill-icon{
+  min-width: 120px;
+}
+
+.dev-icons {
+  font-size: 3rem;
+  list-style: none;
+}
+.skill-icon>img{
+  width: 2rem;
+  height: 2rem;
+}
+.skill-icon>p{
+  font-size: 0.9rem;
+}
+#sitimg{
+  width: 75%;
+}
+
+
+/*EDUCATION SECTION*/
+
+#Education h2{
+  font-weight: 900;
+  margin: 3rem 0rem;
+}
+.educationbox{
+  background-color: #fff;
+  animation: reveal 1s ease;
+  border: 1px solid rgba(0,0,0,.1);
+  box-shadow: 0 10px 30px -15px rgba(0,0,0,.2);
+  z-index: -1;
+}
+.reveall{
+  animation: reveal 1s ease;
+}
+.logocontainer{
+  max-height: 100px;
+  max-width: 100px;
+
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/*Work section*/
+
+.workdiv{
+  padding: 2rem;
+  box-shadow: 0 0 36px rgba(0,0,0,.1);
+  border-radius: 32px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+#worknav{
+  border: none;
+  background: #ffffff;
+}
+#workbutton{
+  padding: 2rem 0rem;
+  width: 100%;
+  justify-content:center;
+  align-items: center;
+}
+.parentwork{
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: fit-content;
+}
+#wow{
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+#clickme{
+  width: 30%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: reveal ease-out 1s infinite;
+}
+
+
+.project-arrow{
+  position: absolute;
+  right: 12px;
+  top: 0px;
+  z-index: 1;
   color: white;
+  height: 2.5rem;
+  width: 3rem;
+  display: flex;
+  font-size: 1rem;
+  justify-content: center;
+  background-color: rgba(249, 204, 132, 0.7);
+  border-radius: 0 4px 0 2rem;
+}
+.project-link{
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+}
+.projectbox:hover{
+  transition: transform .4s ease-out,-webkit-transform .4s ease-out;
+  transform-origin: 50% 50%;
+  background-color: rgba(141, 191, 248, 0.22);
+  box-shadow: 0px 10px 30px -15px rgba(0,0,0,.2);
 }
 
-.App-link {
-  color: #61dafb;
+.relative{
+  position: relative;
+
+}
+.projectbox{
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 36px rgba(0,0,0,.1);
+  background-color: #fff;
+  transition: all .3s ease;
+  border: 1px solid rgba(0,0,0,.1);
+  z-index: -1;
+  justify-content: center;
+  height: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+#tableimg{
+  width: 70%;
+  height: 100%;
+}
+.locicon{
+  width: 20px;
+  height: 30px;
+}
+
+
+.profile-image{
+  border: 0.1rem solid #74747c;
+  border-radius: 50%;
+  box-shadow: 0 30px 30px -30px rgba(0,0,0,.1);
+  height: auto;
+  max-width: 180px;
+  width: 100%;
+}
+.contactimg{
+  width: 10%;
+  height: auto;
+}
+#codingdiv a{
+  text-decoration: none;
+}
+
+#codingdiv li{
+  color: #aa5050;
+}
+
+@media screen and (max-width: 1200px) {
+  * {
+    font-size: 16px;
   }
-  to {
-    transform: rotate(360deg);
+  .nametag{
+    font-size: 3.5rem;
   }
+  .navbar-nav .nav-item{
+    padding: 0px 0.2rem!important;
+  }
+  #comeout{
+    width: 75%;
+    height:90%;
+  }
+  #mainimg{
+    width: 80%;
+    height: auto;
+  }
+  @keyframes Zoom {
+
+    50%{
+      width: 50%;
+      height: auto;
+    }
+    100%{
+      opacity: 1;
+      width: 70%;
+      height: auto;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  * {
+    font-size: 16px;
+  }
+  #wavediv{
+    justify-content: center;
+    height: content-box;
+  }
+
+  #infobox{
+    padding: 1rem;
+  }
+  #comeout{
+    width: 35%;
+    height:auto;
+  }
+  p{
+    font-size: 1rem;
+  }
+  #About{
+    margin: 3.5rem;
+    padding: 0px!important;
+  }
+  #Skills{
+    padding: 0px!important;
+  }
+  .nametag{
+    font-size: 3rem;
+  }
+  #sitimg{
+    width: 70%;
+  }
+  .navbar-nav{
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity));
+  }
+  .skill-icon{
+    min-width: 60px;
+  }
+  #tableimg{
+    width: 50%;
+    height: auto;
+  }
+
+}
+@media screen and (max-width: 768px) {
+  #Contact{
+    flex-direction: column-reverse!important;
+  }
+}
+@media screen and (max-width: 600px) {
+  * {
+    font-size: 14px;
+  }
+
+  #comeout{
+    width: 50%;
+    height:100%;
+  }
+
+  .nametag{
+    font-size: 3rem;
+  }
+
+  .dev-icons{
+    justify-content: center;
+  }
+  .achieveimgsdiv img{
+    width: 3rem!important;
+  }
+  .achieveimgsdiv h6,p,i{
+    font-size: 0.9rem;
+  }
+  .profile-image{
+    max-width: 150px;
+  }
+
+}
+
+@media screen and (max-width: 300px) {
+  * {
+   font-size: 8px;
+  }
+  #infobox{
+    padding: 0px;
+    margin: 0px;
+  }
+  .nametag{
+    font-size: 2.5rem;
+  }
+  .skill-icon{
+    min-width: 50px;
+  }
+  #Skills{
+    min-height: auto;
+  }
+  .logocontainer{
+    max-height: 50px;
+    max-width: 30px;
+  }
+  .achieveimgsdiv img{
+    width: 2rem!important;
+  }
+  .achieveimgsdiv h6,p{
+    font-size: 0.8rem;
+  }
+  .profile-image{
+    max-width: 50px;
+  }
+  .locicon{
+    width: 10px!important;
+    height: auto;
+  }
+  box-icon{
+    width: 15px!important;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 150px) {
+  * {
+    overflow: hidden;
+    font-size: 6px;
+  }
+  #Aboutheading{
+    flex-direction: column;
+  }
+  box-icon{
+    width: 10px!important;
+    height: auto;
+  }
+
 }
