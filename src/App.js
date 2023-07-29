@@ -18,7 +18,7 @@ function App() {
         <BrowserRouter basename={'/My-Portfolio'}>
             <Routes>
 
-                <Route exact path={'/'} element={<Main/> }/>
+                <Route exact path={'/My-Portfolio'} element={<Main/> }/>
                 <Route exact path={'/home'} element={<Home/>}/>
                 <Route exact path={'/skills'} element={<Skills/>}/>
                 <Route exact path={'/education'} element={<Education/>}/>
