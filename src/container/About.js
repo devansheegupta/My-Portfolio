@@ -29,7 +29,7 @@ function About() {
                         Learning, Exploring and Experiencing!
                     </p>
                     <p className="text-center mt-5">
-                        <a className="btn button m-2" href={'/contact'}>Contact me</a>
+                        <a className="btn button m-2" href={'/My-Portfolio/contact'}>Contact me</a>
                         <a className="btn button m-2" href={'https://drive.google.com/file/d/18Oi6zW393INCFDd-e-ktPQ4LH7oL-JKE/view'} target={'__blank'}>See My resume</a>
                     </p>
                 </div>
